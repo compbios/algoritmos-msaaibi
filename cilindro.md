@@ -1,10 +1,11 @@
-
-Algoritmo sin_titulo
-	Definir a Como Entero
-	Leer a
-	Si a MOD 2 = 0 Entonces
-		Escribir "es par"
-	SiNo
-		Escribir "es impar"
-	Fin Si
+Algoritmo cilindro
+	Definir area, radio, altura, volumen Como real
+	Escribir "Ingresar radio del cilindro"
+	Leer radio
+	Escribir "Ingresar altura del cilindro"
+	Leer altura
+	area=3.1416*radio*radio
+	volumen=area*altura
+	Escribir "El área del cilindro es ", area 
+	Escribir "El volumen del cilindro es ", volumen 
 FinAlgoritmo
